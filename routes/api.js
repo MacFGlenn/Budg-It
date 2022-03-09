@@ -28,7 +28,7 @@ router.get("/api/transaction", (req, res) => {
       res.json(dbTransaction);
     })
     .catch((err) => {
-      console.log(err);
+      // console.log(err);
       res.status(404).json(err);
     });
 });
